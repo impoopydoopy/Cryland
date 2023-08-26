@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<conversations>
+    <conversation>
+        <day>0</day>
+        <dialogs>
+            <dialog>
+                <phrase>Hello!</phrase>
+                <answer>Hi</answer>
+            </dialog>
+            <dialog>
+                <phrase>What a beautiful day</phrase>
+                <answer>Sure!</answer>
+            </dialog>
+        </dialogs>
+    </conversation>
+    <conversation>
+        <day>1</day>
+        <dialogs>
+            <dialog>
+                <phrase>Sup!</phrase>
+                <answer>Meow</answer>
+            </dialog>
+            <dialog>
+                <phrase>Kabachok</phrase>
+                <answer>AAAAAAAAAA</answer>
+            </dialog>
+        </dialogs>
+    </conversation>
+</conversations>

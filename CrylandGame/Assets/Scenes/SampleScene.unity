@@ -220,8 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2513af22b95f4c4e8db7feb15b7c180, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 1
-  offsetx: 0
+  smoothTime: 0.3
 --- !u!1 &797186674
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,6 +434,7 @@ GameObject:
   - component: {fileID: 1994215252}
   - component: {fileID: 1994215251}
   - component: {fileID: 1994215254}
+  - component: {fileID: 1994215255}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -538,3 +538,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+--- !u!114 &1994215255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994215250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ac78e67d89aeb4097876a359b739e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogXML: {fileID: 4900000, guid: 97361cf4313d4ff68bb1296c4d29e368, type: 3}
