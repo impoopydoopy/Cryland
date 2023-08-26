@@ -6,7 +6,6 @@ public class Movement : MonoBehaviour
 {
     [SerializeField]
     private float moveSpeed = 2f;
-    
     private void Update()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
