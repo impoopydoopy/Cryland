@@ -34,7 +34,7 @@ namespace DialogSystem
                 return;
             }
                 
-            List<Dialog> dialogs = conversations.ConversationList[1].Dialogs;
+            List<Dialog> dialogs = conversations.ConversationList[currentDay].Dialogs;
             Debug.Log("Day: " + currentDay);
             foreach (var dialog in dialogs)
             {
